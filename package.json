@@ -1,0 +1,25 @@
+{
+  "name": "ylebich-js",
+  "version": "0.1.0",
+  "description": "Check the only truth about you, inspired by Heisenberg",
+  "main": "index.js",
+  "author": "Temuri Takalandze <me@abgeo.dev>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint \"**/*.js\"",
+    "lint:fix": "eslint --fix \"**/*.js\"",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^15.0.0",
+    "commitlint": "^15.0.0",
+    "eslint": "^8.4.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^25.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "jest": "^27.4.4",
+    "prettier": "^2.5.1"
+  }
+}
